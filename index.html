@@ -1,9 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<title>Crystal Game</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+	<div id="game">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+		<h1>Crystals Collector!</h1>
+	</div>
+</div>
+</div>
+	</header>
+</div>
+		<!-- Instructions Section -->
+			<div class="row">
+				<div class="col-md-12">
+			<section id="Instructions">
+				<p>You will be given a random number at the start of the game.</p>
+				<br>
+				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+				<br>
+				<p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+				<br>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<br>
+				<p>Each time when the game starts, the game will change the values of each crystal.</p>
+			</section>
+	</div>
+</div>
+</div>
 
+
+<!--Computer generated number box-->
+
+			<div class="row">
+				<div class="col-md-6">
+					<section>
+						<div id="randomNumber">
+						</div>
+					</div>
+					</section>
+
+<!-- Wins and Losses Section with ids -->
+				<div class="col-md-6">
+<section id="winsLosses">
+		<p>Wins: <span id="winsDisp"></span> </p>
+		<p>Losses: <span id="lossesDisp"></span> </p>
+	</div>
+</div>
+	</section>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<section class="Buttons">
+		<!-- Bootstrap Buttons with crystal images -->
+			<button type="button" class="btn1"><img src="Assets/Images/Arena_Crystal.png"></button>
+				<button type="button" class="btn2"><img src="Assets/Images/Crystal_multi_4thofjuly.png"></button>
+				<button type="button" class="btn3"><img src="Assets/Images/Crystal_superiorironman.png"></button>
+				<button type="button" class="btn4"><img src="Assets/Images/Premium_Hero_Crystal.png"></button>
+			</div>
+		</div>
+	</div>
+</section>
+			<!-- Total score section -->
+		<div class="row">
+			<div class="col-lg-12">
+				<div id="scoreWords">	
+					<h4>Your total score is: <span id="totalScore"></span> </h4>	
+		</div>
+	</div>
+</div>
+		<div class="row">
+			<div class="col-lg-12">
+			<div id="totalScoreBox">
+		</div>
+	</div>
+</div>
+	
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="Assets/Javascript/game.js"></script>
 </body>
 </html>
