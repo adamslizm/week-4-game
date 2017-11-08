@@ -24,17 +24,16 @@ header {
 	margin-top: 10px;
 }
 
-#randomNumber {
+#random-number {
 	position: relative;
 	width: 200px;
 	height: 100px;
 	background-color: green;
 	margin: 10px;
 	float: left;
-	color: white;
 }
 
-#winsLosses {
+.winsLosses {
 	position: relative;
 	width: 100px;
 	height: 100px;
