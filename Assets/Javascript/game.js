@@ -29,6 +29,11 @@ var lossesCounter = function() {
       
       document.querySelector("#lossesDisp").innerHTML = losses;
     };  
+
+var scoreCounter = function() {
+
+	document.querySelector("#totalScoreBox").innerHTML = totalScore;
+}
 //reset game after win or loss
 var reset = function() {
     computerNumber() = random;
