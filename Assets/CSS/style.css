@@ -1,6 +1,6 @@
 body {
 	font-family: helvetica;
-	background-image: url("https://i.pinimg.com/originals/66/35/78/6635783efb19466010feeedb1e67a399.jpg");
+	background-image: url("../Images/background.png");
 	border: 10px;
 }
 
@@ -31,6 +31,7 @@ header {
 	background-color: green;
 	margin: 10px;
 	float: left;
+	padding: 10px;
 	color: white;
 	font-size: 24px;
 }
